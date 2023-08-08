@@ -22,7 +22,7 @@
     background-color: #1579c0;
 }
 
-.search-btn {
+#search-button {
     justify-content: center;
     align-items: center;
     margin-left: 20px;
@@ -37,7 +37,7 @@
     font-size: 13px;
 }
 
-.search-btn:hover{
+#search-button:hover{
     background-color: #a8afb5;
 }
 

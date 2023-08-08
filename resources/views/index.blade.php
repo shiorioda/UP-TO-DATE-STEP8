@@ -32,7 +32,7 @@
         <input class="min_stock" type="text" name="min_stock" placeholder="下限在庫数"> 個 〜
         <input class="max_stock" type="text" name="max_stock" placeholder="上限在庫数"> 個
   
-        <button type="submit" id="search-button" class="search-btn">検索</button>
+        <button type="submit" id="search-button">検索</button>
       </div>   
     </form>
   </div>
@@ -90,7 +90,7 @@
       {{ $products->appends(request()->query())->links() }}
   </div>
   
-  <script>
+  {{-- <script>
     
     // テーブルソート機能
     $(function(){
@@ -198,7 +198,7 @@
       });
     });
   </script>
-  
+   --}}
   </x-app-layout>
   
   
